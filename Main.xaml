@@ -547,7 +547,7 @@
                   <av:PointCollection x:Key="ConnectorLocation">370,885.5 370,944.5</av:PointCollection>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <If DisplayName="If excel" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="If_3">
+              <If DisplayName="If excel" sap:VirtualizedContainerService.HintSize="889,946" sap2010:WorkflowViewState.IdRef="If_3">
                 <If.Condition>
                   <InArgument x:TypeArguments="x:Boolean">
                     <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_53" xml:space="preserve">FileExistsGroup == true  &amp;&amp;  FileExistsContact  == true</mca:CSharpValue>
@@ -611,7 +611,7 @@
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="522,1838" sap2010:WorkflowViewState.IdRef="Sequence_27">
                                             <Sequence.Variables>
                                               <Variable x:TypeArguments="x:String" Name="variable1" />
                                             </Sequence.Variables>
@@ -863,6 +863,7 @@
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
                                             </ui:Click>
+                                            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="480,22" sap2010:WorkflowViewState.IdRef="Delay_2" />
                                           </Sequence>
                                         </Sequence>
                                       </ActivityAction>
